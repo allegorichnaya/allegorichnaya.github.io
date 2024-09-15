@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #EAE4DD;
+}
+
+header {
+    background-color: rgb(101, 105, 94);
+    color: #CDC2A5;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 5px;
+}
+
+header nav ul li a {
+    color: #E1D7C6;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    background-color: #CDC2A5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(101, 105, 94);
+    color: #E1D7C6;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+ 
